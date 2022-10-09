@@ -125,7 +125,7 @@ namespace SolarSystemWPF
             otherTimer.Interval = 1;
 
             otherTimer.Enabled = true;
-            
+
         }
 
         private void Stopper_Click(object sender, RoutedEventArgs e)
@@ -133,12 +133,14 @@ namespace SolarSystemWPF
             otherTimer.Stop();
             otherTimer.Dispose();
             otherTimer.Close();
+
             for (int i = Space.Children.Count - 1; i >= 0; i += -1)
             {
                 UIElement Child = Space.Children[i];
                 if (Child is Ellipse)
                     Space.Children.Remove(Child);
             }
+
         }
     }
 }
