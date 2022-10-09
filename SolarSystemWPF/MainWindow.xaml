@@ -6,9 +6,8 @@
         xmlns:local="clr-namespace:SolarSystemWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="800">
-    
     <Canvas x:Name="Space" Height="800" Width="800" Background="Black">
-        <Button x:Name="Starter" Width="200" Height="20" Click="Starter_Click"> Start</Button>
+                <Button x:Name="Starter" Width="200" Height="20" Click="Starter_Click"> Start</Button>
                 <Button x:Name="Stopper" Width="200" Height="20" Margin="600,0,0,0" Click="Stopper_Click"> Stop </Button>
     </Canvas>
 </Window>

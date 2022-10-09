@@ -125,7 +125,6 @@ namespace SolarSystemWPF
             otherTimer.Interval = 1;
 
             otherTimer.Enabled = true;
-
         }
 
         private void Stopper_Click(object sender, RoutedEventArgs e)
